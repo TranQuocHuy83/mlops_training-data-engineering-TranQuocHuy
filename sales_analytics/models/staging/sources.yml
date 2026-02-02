@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: Raw data from CSV ingestion
+    database: data_engineering_exercise
+    schema: raw
+    tables:
+      - name: sales_data
+        description: Raw sales transactions
+        columns:
+          - name: id
+            description: Primary key
+          - name: product_name
+            description: Product name
+          - name: category
+            description: Product category
+          - name: price
+            description: Unit price
+          - name: quantity_sold
+            description: Quantity sold
+          - name: sale_date
+            description: Date of sale
+          - name: region
+            description: Geographic region

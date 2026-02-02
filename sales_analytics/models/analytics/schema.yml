@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_sales_data
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+
+  - name: sales_by_category
+    columns:
+      - name: category
+        tests:
+          - not_null

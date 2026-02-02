@@ -1,0 +1,10 @@
+product_name,category,price,quantity_sold,sale_date,region
+Laptop,Electronics,1200.00,5,2024-01-15,North
+Mouse,Electronics,25.00,50,2024-01-15,South
+Monitor,Electronics,350.00,10,2024-01-16,West
+Keyboard,Electronics,80.00,30,2024-01-16,East
+Desk,Furniture,150.00,8,2024-01-17,North
+Chair,Furniture,120.00,12,2024-01-17,South
+Lamp,Furniture,45.00,25,2024-01-18,West
+Notebook,Supplies,5.00,200,2024-01-18,East
+Pen,Supplies,2.00,500,2024-01-19,North
